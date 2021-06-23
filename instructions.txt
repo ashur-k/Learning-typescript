@@ -1,0 +1,50 @@
+Installing Typescript Globally with ts nod
+	npm install -g typescript ts-node
+
+To update NPM
+	npm install -g npm
+
+To get typescript help
+	tsc --help
+
+To install code . path for vs-code
+	Go to command pallete
+	search for install path
+		and choose install code command in path.
+
+Installint Prettier Extension
+	in settings type
+		format on save
+			check the option format on save
+	
+	Configuring prettier to sue single quotes
+		single quotes
+		Check prettier singlw quote setting
+
+	using two spaces for indentation
+		scroll down of default settings and look for
+		Editor tab size
+		tab size and changing it to 2
+
+	Changing theme search
+		workbench color theme
+			and changing it soloarized light from bittersweet
+
+	To hide Workbench activity bar
+		workbench > Activity bar: visible 
+			uncheck the option
+
+Project Steps I am following:
+	=> Take a look at the API we'll use to fetch data
+	=> create a new project directory
+	=> Create a package.json file
+	=> install axios to make a request
+	=> write code
+
+	API we are using is jsonplaceholder.typicode.com
+		Resources 
+		and then todo
+
+  Starting Project 
+    npm init -y
+    npm install axios
