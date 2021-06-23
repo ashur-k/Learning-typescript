@@ -59,4 +59,66 @@ I tried to execute ts-node index.ts
 	and it didn't work 
 	then I re-install 'npm i ts-node'
 	and it worked, for some reason ts node was not installed in first step /
-	
+
+Typescript Theory:
+	Syntax and features of the language			vs	Design Patterns with TS
+		What is an interface?												How do we use interfaces to write reuseable code?
+			When we create interface we 
+			create new type inside our
+			application and in code e.g that 
+			type name was Todo. and then later
+			in code we are giving that type
+			to response.data
+
+		Syntax for defining interface?
+
+
+
+
+
+
+		Goals: 
+			Understand basic types in TS ======----> Syntax + features
+			Funciton typing _ annotaions ======----> Syntax + features
+			Type definition files ======----> Syntax + features
+			Arrays in TS  ======----> Syntax + features
+			Modules systems ======----> Syntax + features
+			Classes + Refreshers on OOP ======----> Syntax + features
+			Projects ======----> Syntax + features
+
+				Basic Types:
+					Easy way to refer to the differnt properties +
+						funcitons that a value(in TS or JS anything we can sssign to a var) has
+										===> Its a string				
+							red =
+										===> It is a value that has all the properties + methods that we assume
+												that a string has
+
+								Funcitons belong to string in a JS 	
+									charAT()
+									charCodeAt()
+									concat()
+									includes()
+									endsWith()
+									indexOf()
+									lastIndexOf()
+									localeCompare()
+									match()
+
+								To catergorise everything in one single word we say this is string.
+
+						
+						World of Typescript 2 different kinds of types
+
+																	number, boolean, void, undefined							
+							Primitive Types:==--> 
+																	string, symbol, null
+
+		Types ======->
+															functions, arrays				
+							Object Types:==--> 
+															classes, objects
+
+Why do we care about types?
+	Types are used by the typescript compiler to analyze our code for errors
+	Types allow other engineers to understand what values are flowing around our codebase
