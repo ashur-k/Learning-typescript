@@ -22,7 +22,7 @@ axios.get(url).then(response => {
 
   const id = todo.id;
   const title = todo.title;
-  const finished = todo.completed;
+  const completed = todo.completed;
 
   console.log(`
     The Todo with ID: ${id}
