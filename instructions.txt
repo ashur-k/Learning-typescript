@@ -159,3 +159,20 @@ Type Inference for Functions:
 	Typescript tries to figure out what type of value
 	a function will return
 
+Typed Arrays:
+	Arrays where each element is some consisten type of value
+
+	// Whats big deal about array.
+    //TS can fo type inference when extracting values from an array
+    //TS can prevent us from adding incompatible values tp the array
+    //We can get help with 'map', 'foreach', 'reduce' functions
+    //Flexible - arays can still contain multitple different types
+
+Tuples:
+	Array like structure where each element represents some property of a record
+
+Interface:
+	Interfaces + classes = How we get really strong code reuse in TS
+
+		Creates new type, describing the property names and value types of an object
+		
