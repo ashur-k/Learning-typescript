@@ -48,3 +48,15 @@ Project Steps I am following:
   Starting Project 
     npm init -y
     npm install axios
+
+I have written some typescript code and I am learning to convert it into JS
+Using typescript compiler installed earlier in step 1
+		=> tsc index.ts
+			=> this will create compiled version of file as inde.js
+			=> to execute I can fo node index.js and file will run on terminal
+
+I tried to execute ts-node index.ts
+	and it didn't work 
+	then I re-install 'npm i ts-node'
+	and it worked, for some reason ts node was not installed in first step /
+	
