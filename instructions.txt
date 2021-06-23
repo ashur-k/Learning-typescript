@@ -126,3 +126,36 @@ Why do we care about types?
 
 Type annotaions: Code we add to tell Typescript what type of value a variable weill refer to
 Type inference: Typescript ries to figure out what types of value a variable refers to
+
+
+Type inference
+	variable declarations								variable Intialization
+	const color								=							'red';
+
+	If declaration and initalization are on the same line,
+	typescript will figure out the type of 'color' for us
+
+	for e.g. let apples = 5 // this will work with typescript and typescript knows that apples is 5
+
+	but if we do like.
+	let apples;
+	aplles = 5; // This wont work
+
+	so this line of code is with type annotaions
+		let speed: string = 'fast' // string is annotaiton 
+		and if we hover on this line and the value that we says is type inference
+		Type inference is when typescript is going to guess everything for us
+
+3 scenarios when we need to rely on type annotaitons
+		1. When a function returns the 'any' type and we need to carify the value
+		2. When we declare a variable on one line then initialize it later	
+		3. When we want a variable to have a type that can't be inferred
+
+Type Annotaiton for function:
+	Code we add to tekk Typescript what type of arguments a function
+	will receive and what type of values it will returns
+
+Type Inference for Functions:
+	Typescript tries to figure out what type of value
+	a function will return
+
