@@ -122,3 +122,7 @@ Typescript Theory:
 Why do we care about types?
 	Types are used by the typescript compiler to analyze our code for errors
 	Types allow other engineers to understand what values are flowing around our codebase
+
+
+Type annotaions: Code we add to tell Typescript what type of value a variable weill refer to
+Type inference: Typescript ries to figure out what types of value a variable refers to
