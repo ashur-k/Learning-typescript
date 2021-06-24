@@ -176,3 +176,37 @@ Interface:
 
 		Creates new type, describing the property names and value types of an object
 		
+
+																										oldCivic
+		Interface Reportable:												-------Must satisfy the Reportable
+						-----Repoertable is a								-------interface to work with
+						-----gatekeeper											-------print summary
+						-----to print summary										drink
+		=>printSummary Funciton
+
+
+		General Strategy for Reusable Code in TS
+			Create function that accept arguments that are typed with intrfaces
+			Objects/classes can decide to 'implement' a given interface to work with a function
+
+
+Classes in Typescript:
+	Blueprint to create an object with some fields (values)
+	and methods (functions) to represent a 'thing'
+
+			First: Define a set of fields (values) and methods (functions) 
+							to represent a 'thing'
+			Second: Define a set of fields (values) and methods (functions)
+							to represent a 'thing'
+		
+		Class Inheritance and overriding child Class
+				Please look at classes.ts file and see code 
+				for inheritance we use 'extend' keyword
+				and we can redefine parent class funciton to do somthing different
+
+		public: This method can be called any where, anytime
+		private: this method can only be called by other methods in this class
+		protected: this method can be called by other methods in 
+								this class, or by other methods in child classes
+
+			
